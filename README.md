@@ -21,7 +21,7 @@ Clone the repository to your local machine:
 Install the dependencies for the client and server:
 
 npm install
-
+ss
 
 Running the Development Server
 
