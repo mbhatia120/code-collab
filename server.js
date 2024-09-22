@@ -12,6 +12,9 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.use((req,res,next)=>{
     res.sendFile(path.join(__dirname,'build','index.html'))
 })
+
+app.smsdjsc
+
 const server = http.createServer(app);
 //the same happens inside app.listen
 
@@ -24,7 +27,7 @@ const userSocketMap = new Map();
 // TODO: THIS IS STORED IN THE SERVER, SO IF SERVER RESTARTS, ALL THE DATA IS LOST- CAN USE REDIS FOR PERSISTENCE
 //event, callback which will be executed after that event detection
 
-
+sdkcj s
 function getAllConnectedClients(roomId) {
 
     const clientsSet = io.sockets.adapter.rooms.get(roomId) || new Set();
