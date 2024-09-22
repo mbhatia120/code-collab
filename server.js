@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.use((req,res,next)=>{
     res.sendFile(path.join(__dirname,'build','index.html'))
 })
-
+dd
 app.smsdjsc
 
 const server = http.createServer(app);
